@@ -4,8 +4,8 @@ from ..tools.web import getUrlData
 
 class adresMatch(object):
   def __init__(self):
-      self._gemUrl = "https://api.basisregisters.vlaanderen.be/v1/gemeenten/"
-      self._amUrl = "https://api.basisregisters.vlaanderen.be/v1/adresmatch"
+      self._gemUrl = "https://api.basisregisters.vlaanderen.be/v2/gemeenten/"
+      self._amUrl = "https://api.basisregisters.vlaanderen.be/v2/adresmatch"
 
   def gemeenten(self, langcode="nl", step=500, stop=1500):
       'Return all Flemish gemeenten (Municipalities), langcode= "nl", "fr", "de"' 
